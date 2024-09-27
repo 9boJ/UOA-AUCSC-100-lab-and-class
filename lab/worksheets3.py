@@ -42,7 +42,25 @@
 #a program that asks the user to input a string and counts how many vowels (a, e, i, o, u) are in the string.
 
 #Asks the user for a string
-string = input("Enter a string: ")
-nubstrin = [string]
-x = sum(nubstrin)
-print(x)
+#string = [input("Enter a string: ")]
+
+# A vowel bank 
+#vowels = ["a","e","i","o","u"]
+
+# nubmer of vowels in the string
+#vowel_counts = 0
+
+#for ever vowel in the string adds one to vowel count(vowel_counts)
+#for i in string[0]:
+#    if i == vowels[0]:
+#        vowel_counts+=1
+#    elif i == vowels[1]:
+#        vowel_counts+=1
+#    elif i == vowels[2]:
+#        vowel_counts+=1
+#    elif i == vowels[3]:
+#        vowel_counts+=1
+#    elif i == vowels[4]:
+#        vowel_counts+=1
+
+#print("Your string has " + str(vowel_counts) + " vowels!")
