@@ -1,0 +1,20 @@
+def checkfornub(newpassword):
+        return any(newpassword.find(str(i)) != -1 for i in range(10)) 
+def password_check(newpassword, oldpassword): 
+    if newpassword == oldpassword:
+        print("False")
+    elif len(newpassword) < 6:
+        print("False")
+    elif checkfornub() == "False":
+        print("False")
+    elif str(checkfornub(newpassword)) == "False":
+        print("Flase")
+    else:
+        print("Ture")
+
+password_check('E10-s2ff', 'E10.s2ff')
+password_check('E10sf', 'E10.s2ff')
+password_check('E10-s2ff', 'E10-s2ff')
+password_check('E10-s2f', 'E10-s2ff')
+password_check('E10-s2f1', 'E10-s2ff')
+

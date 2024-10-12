@@ -17,4 +17,25 @@ my = "my # is "
 a = 5
 #print(my,a)
 mylist = ["apple", "banana", "cherry",["yoo","hi"],20]
-print(mylist[2][2])
+#print(mylist[2][2])
+
+#quiz 2 
+#class Door:
+#    colour = 'yellow'
+
+#    def __init__(self, material, status):
+#        self.material = material 
+#        self.status = status
+#
+#    def open(self):
+#        self.status = 'open'
+#
+#    def close(self):
+#        self.status = 'closed'
+
+#food = [['pizza', 'kraft dinner'], ['hot dogs', 'pancakes', 'cereal', 'toast'], 'steak']
+
+#################################
+
+
+
