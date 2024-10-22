@@ -1,22 +1,22 @@
-def oddeoreven(x):
-    z=x%2
-    if z==0:
-        print("even")
-    else: 
-        print("odd")
+#def oddeoreven(x):
+#    z=x%2
+#    if z==0:
+#        print("even")
+#    else: 
+#        print("odd")
 
 #oddeoreven(3)#
-p = "pickle"
+#p = "pickle"
 
 #print(p[1])
 #print(p[-1])
 #print(p[0:3])
 #print("w" in p)
 #print(len(p))
-my = "my # is "
-a = 5
+#my = "my # is "
+#a = 5
 #print(my,a)
-mylist = ["apple", "banana", "cherry",["yoo","hi"],20]
+#mylist = ["apple", "banana", "cherry",["yoo","hi"],20]
 #print(mylist[2][2])
 
 #quiz 2 
@@ -36,6 +36,5 @@ mylist = ["apple", "banana", "cherry",["yoo","hi"],20]
 #food = [['pizza', 'kraft dinner'], ['hot dogs', 'pancakes', 'cereal', 'toast'], 'steak']
 
 #################################
-
 
 
