@@ -10,9 +10,15 @@ news = s.replace('.', ' ').replace(',', ' ').replace(';', ' ').replace('\n', ' '
 
 news = news.split()
 
-news = "".join(news)
+news = " ".join(news)
 
 news = news.lower()
 
-news = news.split()
-print(news)
+Count_it_was = news.count("it was")
+
+news = news.replace("it was","is")
+
+lists = news.split()
+
+print(lists)
+

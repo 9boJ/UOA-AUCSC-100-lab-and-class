@@ -58,4 +58,4 @@ def censor(file_name):
     
     
 
-censor("test.txt")
+censor("example.txt")
