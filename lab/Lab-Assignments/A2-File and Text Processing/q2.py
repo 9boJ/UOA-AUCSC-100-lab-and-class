@@ -6,8 +6,6 @@ was ... '''
 
 news = s.replace('.', ' ').replace(',', ' ').replace(';', ' ').replace('\n', ' ')
 
-#rint(news)
-
 news = news.split()
 
 news = " ".join(news)
