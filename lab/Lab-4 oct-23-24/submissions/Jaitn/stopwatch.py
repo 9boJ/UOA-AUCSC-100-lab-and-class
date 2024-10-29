@@ -55,3 +55,13 @@ reset_button.grid(row=1, column=2, padx=5, pady=5)
  
 # Run the application 
 root.mainloop()
+
+
+
+"""
+    1. The line set the root as a Tk
+
+
+
+
+"""
